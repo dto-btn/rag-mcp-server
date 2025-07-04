@@ -5,18 +5,7 @@ description = "MCP server for RAG on arbitrary files"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "azure-identity>=1.23.0",
-    "fastmcp>=2.6.1",
-    "mcp[cli]>=1.9.2",
-    "openai>=1.81.0",
-    "pandas>=2.2.3",
-    "pymssql>=2.3.4",
+    "fastmcp>=2.10.1",
+    "mcp[cli]>=1.10.1",
     "ruff>=0.11.8",
 ]
-
-# uncomment to build on a system that doesn't support this lib natively.
-#[tool.uv]
-#no-binary-package = ["pymssql"]
-
-[tool.setuptools.packages.find]
-include = ["auth", "business_request"]

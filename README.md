@@ -1,10 +1,13 @@
 # Business Request Server
 Demo PoC MCP server to be used in other PoC
 
+FIX ME @monarchwadia
+
 ## Devs
 
 ```bash
 uv venv
+source .venv/bin/activate
 uv pip install -e .
 # then run it locally
 mcp dev server.py
